@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Leandro, Natália, Vanessa e Nikolas">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Galeria</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="fullpage.css">
+	<style type="text/css">
+        body{background-color: rgba(250,250,250,.9);}
+    		
+    *{
+		margin: 0;
+	}
+
+	.galeria{
+		position: relative;
+		top: 10px;
+		left: 5px;
+		
+	}
+
+	.galeria img{
+		width: 300px;
+		height: 200px;
+		margin: 15px;
+		
+	}
+
+	.galeria img:hover{
+		-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+        box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+        height: 202px;
+        width: 302px;
+	}
+
+    </style>
+
+</head>
+<body>
+	<!-- MENU DE NAVEGAÇÃO -->
+	<aside>
+			<input type="checkbox" id="check">
+	<label id="icone" for="check"><img src="static/iconmenu.png" alt="icone"></label>
+	<div class="barra">
+		<nav>
+			<a href="/ir_home"><div class="link">Voltar ao início</div></a>
+		</nav>
+	</div>
+		</aside>	
+
+	<div class="galeria">
+		<img src="static/01.jpg" alt="foto">
+		<img src="static/02.jpg" alt="foto">
+		<img src="static/03.jpg" alt="foto">
+		<img src="static/04.jpg" alt="foto">
+		<img src="static/05.jpg" alt="foto">
+		<img src="static/06.jpg" alt="foto">
+		<img src="static/08.jpg" alt="foto">
+		<img src="static/09.jpg" alt="foto">
+	
+	</div>
+</body>
+</html>

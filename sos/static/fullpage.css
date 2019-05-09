@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+h1 {
+	font-family: 'Roboto';
+	font-size: 5em;
+	margin-top: 0px;
+	padding-top: 7.05%;
+	text-align: center;
+	color: #757575;
+	font-weight: 100%;
+	font-style: normal;
+}
+h1:hover {
+	color: #757575;
+}
+#i, legend, p, label, #dados, caption {
+color: rgba(250,250,250,.9)
+}
+table{
+	border-color: rgba(250,250,250,.9);
+	width: 600px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+    left: 30%;
+	text-align: left;
+	border: 50% groove rgba(250,250,250,.9);
+	}
+#dados{
+		text-align: center;
+	}
+
+#i, legend{
+	text-align: center;
+}
+p{
+	font-size: 18px;
+	text-align: justify;
+}
+td{
+    font-size: 17.5px;
+}
+
+option{
+	color: black;
+}
